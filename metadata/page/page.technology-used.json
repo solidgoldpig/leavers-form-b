@@ -1,0 +1,76 @@
+{
+  "_id": "page.technology-used",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.tech-used--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tech-used--checkboxes--checkbox.macbook",
+          "_type": "checkbox",
+          "hint": "Digital",
+          "label": "MacBook",
+          "name": "device_macbook"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tech-used--checkboxes--checkbox.windows-machine",
+          "_type": "checkbox",
+          "hint": "Closed Circuit Network",
+          "label": "DOM1",
+          "name": "device_dom1",
+          "value": "e[DEVICE_DOM1]"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tech-used--checkboxes--checkbox.quant-omni",
+          "_type": "checkbox",
+          "label": "Quantum / Omni",
+          "name": "device_quantum",
+          "value": "e[DEVICE_QUANTUM]"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tech-used--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "Mobile",
+          "name": "device_mobile"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.tech-used--checkboxes--checkbox.mobile",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page.tech-used--checkboxes--checkbox.mobile--textarea.auto_name__2",
+            "_type": "textarea",
+            "label": "Provide technology details",
+            "name": "device_other_details"
+          },
+          "label": "Other",
+          "name": "device_other"
+        }
+      ],
+      "legend": "Technology used"
+    }
+  ],
+  "url": "technology"
+}

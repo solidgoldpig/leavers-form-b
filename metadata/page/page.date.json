@@ -1,0 +1,58 @@
+{
+  "_id": "page.date",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.date--date.auto_name__2",
+      "_type": "date",
+      "label": "Official leave date",
+      "name": "leave_date"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.date--radios.auto_name__2",
+      "_type": "radios",
+      "hint": "To return laptop and other equipment",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.date--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__1"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.date--radios.auto_name__2--radio.auto_value__2",
+          "_type": "radio",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page.date--radios.auto_name__2--radio.auto_value__2--date.auto_name__4",
+            "_type": "date",
+            "label": "What is your last day?",
+            "name": "auto_name__4"
+          },
+          "label": "No",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Is that your last day in the office?",
+      "name": "auto_name__2"
+    }
+  ],
+  "heading": "Leaving details",
+  "url": "date"
+}

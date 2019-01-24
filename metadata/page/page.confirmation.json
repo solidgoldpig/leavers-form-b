@@ -1,0 +1,8 @@
+{
+  "_id": "page.confirmation",
+  "_type": "page.confirmation",
+  "body": "Please remember to return your devices when you leave.",
+  "heading": "Thank you",
+  "lede": "Your details have been sent",
+  "url": "confirmation"
+}

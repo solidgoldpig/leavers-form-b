@@ -1,0 +1,7 @@
+{
+  "_id": "page.check-submit",
+  "_type": "page.summary",
+  "sendBody": "By submitting this form you confirm that, to the best of your knowledge, the details you are providing are correct.",
+  "sendHeading": "Now send your details",
+  "url": "check"
+}

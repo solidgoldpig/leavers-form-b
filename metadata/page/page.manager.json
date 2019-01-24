@@ -1,0 +1,22 @@
+{
+  "_id": "page.manager",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.manager-details--section--text.man-first-name",
+      "_type": "text",
+      "label": "Name",
+      "name": "manager_name"
+    },
+    {
+      "_id": "page.manager-details--section--text.man-email",
+      "_type": "text",
+      "hint": "e.g. my.manager@digital.justice.gov.uk",
+      "label": "Email address",
+      "name": "manager_email"
+    }
+  ],
+  "heading": "Manager",
+  "sectionHeading": "Department details",
+  "url": "manager"
+}

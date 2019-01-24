@@ -1,0 +1,72 @@
+{
+  "_id": "page.business-unit",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.business-unit--radios.auto_name__4",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.hq-pa",
+          "_type": "radio",
+          "hint": "Dave Rogers",
+          "label": "HQ - Platforms & Architecture",
+          "value": "e[UNIT_HQ_PA]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.hq-cd",
+          "_type": "radio",
+          "hint": "Helen Mott",
+          "label": "HQ - Central Digital",
+          "value": "e[UNIT_HQ_CD]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.hq-sp",
+          "_type": "radio",
+          "hint": "Amie Alekna",
+          "label": "HQ - Security & Privacy",
+          "value": "e[UNIT_HQ_SP]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.laa",
+          "_type": "radio",
+          "hint": "Luke Crosby",
+          "label": "LAA",
+          "value": "e[UNIT_LAA]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.CICA",
+          "_type": "radio",
+          "hint": "David Marshall",
+          "label": "CICA",
+          "value": "e[UNIT_CICA]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.opg",
+          "_type": "radio",
+          "hint": "Jane Fallon",
+          "label": "OPG",
+          "value": "e[UNIT_OPG]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.hmpps-ds",
+          "_type": "radio",
+          "hint": "Carol Teece",
+          "label": "HMPPS & Digital Studio",
+          "value": "e[UNIT_HMPPS]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.cts-so",
+          "_type": "radio",
+          "hint": "Richard Matthews",
+          "label": "CTS & Service Ops",
+          "value": "e[UNIT_CTS]"
+        }
+      ],
+      "legend": "Business Unit",
+      "name": "unit"
+    }
+  ],
+  "sectionHeading": "Department details",
+  "url": "unit"
+}

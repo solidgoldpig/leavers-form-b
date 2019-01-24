@@ -1,7 +1,15 @@
 {
   "_id": "service",
   "_type": "config.service",
-  "name": "Service name goes here",
+  "code": "DSD-LF",
+  "emailInputNameTeam": "elliott.bouher@digital.justice.gov.uk",
+  "emailInputNameUser": "leaver_email",
+  "emailSubjectTeam": "Leaving MoJ Notification: {leaver_name}, {leave_date}",
+  "emailSubjectUser": "Leaving MoJ Notification: {leaver_name}, {leave_date}",
+  "emailTemplateTeam": "Dear colleague\r\n\r\nLeaver: {leaver_name}\r\nLeave date: {leave_date}\r\n\r\nPlease find the details for this leaver attached.\r\n\r\nMany thanks\r\nPeople Team / Digital Service Desk",
+  "emailTemplateUser": "Dear {leaver_name}\r\n\r\nThank you for completing the Leavers’ form. Your leaving details have been sent to the relevant parties.\r\n\r\nPlease remember to return your devices when you leave.\r\n\r\nMany thanks\r\nPeople Team / Digital Service Desk",
+  "name": "MoJ Leavers Form",
+  "pdfHeading": "MoJ Leaver details",
   "phase": "alpha",
   "phaseText": "Service phase text goes here"
 }

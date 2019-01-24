@@ -1,0 +1,40 @@
+{
+  "_id": "page.location",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.location--radios.auto_name__4",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "London",
+          "value": "e[LOCATION_LONDON]"
+        },
+        {
+          "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1--2",
+          "_type": "radio",
+          "label": "Sheffield",
+          "value": "e[LOCATION_SHEFFIELD]"
+        },
+        {
+          "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1--3",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1--3--text.auto_name__3",
+            "_type": "textarea",
+            "label": "Provide location details",
+            "name": "auto_name__3"
+          },
+          "label": "Other",
+          "value": "e[LOCATION_OTHER]"
+        }
+      ],
+      "legend": "Location",
+      "name": "location"
+    }
+  ],
+  "sectionHeading": "Department details",
+  "url": "location"
+}
